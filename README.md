@@ -1,4 +1,4 @@
-# Entropy-Based-Binning
+# Entropy-Based Binning
 
 ## Summary
 The function here is designed for binning continuous independent variables, in the way minimizing total entropy of corresponding response.  
