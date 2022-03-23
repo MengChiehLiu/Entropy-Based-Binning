@@ -1,6 +1,6 @@
 # Entropy-Based-Binning
 
-The function here is designed for binning dependent variables, in the way minimizing total entropy of corresponding response.
+The function here is designed for binning dependent variables, in the way minimizing total entropy of corresponding response.  
 Make sure u put the test file into correct path, which is "sample_data/" in google colab
 
 ## Structure
