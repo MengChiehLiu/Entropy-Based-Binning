@@ -24,5 +24,5 @@ The binary tree is to store the data, every node is a double list containing ind
 
 ## Result
 In this case, we set threshold as bins count is equal to 4 and keep it running till the entropy is optimized to draw the change of the entropy.  
-The output is showed below:  
+The output is shown below:  
 ![image](https://user-images.githubusercontent.com/77425545/159637424-594ec42c-d734-485e-aabe-eaee34744aea.png)
