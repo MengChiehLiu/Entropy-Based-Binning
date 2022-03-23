@@ -1,9 +1,12 @@
 # Entropy-Based-Binning
 
 ## Summary
-The function here is designed for binning independent variables, in the way minimizing total entropy of corresponding response.  
-Make sure u put the test file into correct path, which is "sample_data/heart.csv" in google colab.  
-The function here is designd for binary response only, if ur response is not binary, u should change the entropy base and revise the probability and entropy calculating on your own, which is not that difficult so I just skip the tutorial.
+The function here is designed for binning continuous independent variables, in the way minimizing total entropy of corresponding response.  
+
+## Use guide
+1. Make sure u put the test file into correct path, which is "sample_data/heart.csv" in google colab.  
+2. If the response 
+3. The function here is designd for binary response only, if ur response is not binary, u should change the entropy base and revise the probability and entropy calculating on your own, which is not that difficult so I just skip the tutorial.
 
 ## Structure
 
