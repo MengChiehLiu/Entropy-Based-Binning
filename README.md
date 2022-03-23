@@ -23,6 +23,6 @@ Given a set of samples S, if S is partitioned into two intervals S1 and S2 using
 The binary tree is to store the data, every node is a double list containing independent and response variables, the root node means whole data and the leaf nodes mean the remaining bins in that time point, we use leaf nodes to do further bining every round.  
 
 ## Result
-In this case, we set threshold as bins count is equal to 4 and keep it running till the entropy is optimized to draw the change of the entropy.
+In this case, we set threshold as bins count is equal to 4 and keep it running till the entropy is optimized to draw the change of the entropy.  
 The output is showed below:  
 ![image](https://user-images.githubusercontent.com/77425545/159635707-6f0a19b9-4e8d-4876-a0db-3e4924d84f25.png)
