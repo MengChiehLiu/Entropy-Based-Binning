@@ -15,7 +15,7 @@ Test dataset is from: https://www.kaggle.com/rashikrahmanpritom/heart-attack-ana
 Every round we will cut out two bins from a leaf node of binary tree in oeder to minimize entropy, then we insert these two bins under that node and these two bins will become new leaf nodes, recursively doing this process until the entropy is optimized, also we can set a threshold using bins count or information gained.
 
 ### Entropy
-Using scipy.stats.entropy to calculate the entropy of every bin, and weight them according to the lenth of bin divided by total lenth of the data. Every round of bining it will find the binning method with most information gained, which is new entropy minus orginal entropy.  
+Using [scipy.stats.entropy]https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.entropy.html?highlight=entropy to calculate the entropy of every bin, and weight them according to the lenth of bin divided by total lenth of the data. Every round of bining it will find the binning method with most information gained, which is new entropy minus orginal entropy.  
 
 Given a set of samples S, if S is partitioned into two intervals S1 and S2 using boundary T, the entropy after partitioning is:  
 ![image](https://user-images.githubusercontent.com/77425545/159634298-185c5311-4312-4871-8220-e8da7f3a536b.png)
