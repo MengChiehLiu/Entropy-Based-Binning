@@ -2,7 +2,8 @@
 
 ## Summary
 The function here is designed for binning continuous independent variables, in the way minimizing total entropy of corresponding response.  
-Also this function can plot the change of the entropy in the process.
+Also this function can plot the change of the entropy in the process.  
+Test dataset is from: https://www.kaggle.com/rashikrahmanpritom/heart-attack-analysis-prediction-dataset
 
 ## Use guide
 1. Make sure u put the test file into correct path, which is "sample_data/heart.csv" in google colab.  
